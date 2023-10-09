@@ -12,9 +12,9 @@ The captcha solver POC underwent a series of 16 tests to evaluate its performanc
 
 1. **Captcha Detection:** Identify the captcha on the webpage.
 2. **Screenshot Capture:** Take a screenshot of the identified captcha.
-3. **OCR Integration:** Perform basic OCR to identify the object within the captcha.
+3. **OCR Integration:** Perform basic OCR to identify the object name within the captcha.
 4. **Image Slicing:** Slice the captcha into individual cases for analysis.
-5. **LLAVA Prompting:** Utilize the LLAVA model to determine if the OCR object is present in each sliced image case.
+5. **LLAVA Prompting:** Utilize the LLAVA model to determine if the object is present in each sliced image case.
 6. **Result Analysis:** Analyze the results to solve the captcha.
 
 #### Future Improvements
